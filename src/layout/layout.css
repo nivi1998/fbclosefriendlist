@@ -1,0 +1,55 @@
+/* layout css */
+
+.layout-header {
+  background-color: #ffffff;
+}
+
+.sideHeader {
+  display: block;
+  position: fixed;
+  width: 20%;
+  background: #ffffff;
+  height: 100vh;
+}
+
+.childrenStyle {
+  margin-top: 6%;
+  margin-left: 2px;
+  min-height: 80vh;
+  background-color: aliceblue;
+}
+
+/* sidebar css */
+
+#sidebar {
+  width: 30%;
+}
+.container {
+  background: #ffffff;
+  border-radius: 5px;
+  height: 100vh;
+  width: 100%;
+  margin-left: 0px;
+}
+.setPadding {
+  padding: 2%;
+}
+
+/* //header css */
+.navbar {
+  background-color: #ffffff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.logout {
+  /* display: flex;
+  justify-content: flex-end;
+  align-items: flex-end; */
+  margin: 1%;
+  cursor: pointer;
+  text-decoration: underline;
+  color: black;
+}
